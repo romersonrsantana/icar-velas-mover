@@ -4,26 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livro site</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <header>
+    <header role="banner">
         <a href="#">Barcelona's Architect</a>
         <a href="#">La Sagrada Familia</a>
         <a href="#">Park Guell</a>
     </header>
 
-    <article>
-        <h1>Barcelona's Architect</h1>
+    <article class="architect">
+            <h1 id="gaudi's">Barcelona's Architect</h1>
 
-        <p>Antoni Gaudi's incredible buildings bring millions of tourists to Barcelona each year.</p>
+            <p>Antoni Gaudi's incredible buildings bring millions of tourists to Barcelona each year.</p>
 
-        <p>
-            Gaudi's non-conformity, already visible in this teenage years, coupled with his quiet but firm devotion to the church, made a unique foundation for this thoughts and ideas. His search for simplicity, based on his careful observations of nature are quite apparent in his work, from the <a href="#">Park Guell</a> and its incredible sculptures and mosaics, to the Church of the Sacred Family, and its organic, bulbous towers.
-        </p>
-    </article>
-    <article>
-        <h2>La Sagrada Família</h2>
-        <p>The complicatedly named and curiously unfinished masterpiece that is the Expiatory Temple of the Sacred Family is the most visited building in Barcelona. In it, Gaudi combines his vision of nature and architeture with his devotion to his faith. His focus on this project was so intense that he.</p>
+            <p>
+            Gaudi's non-conformity, already visible in this teenage years, coupled with his quiet but firm devotion to the church, made a unique foundation for this thoughts and ideas. His search for simplicity, based on his careful observations of nature are quite apparent in his work, from the <a href="#">Park Guell</a> and its incredible sculptures and mosaics, to the Church of the <a href="">Sacred Family</a>, and its organic, bulbous towers.
+            </p>
+        
+        <section class="project">
+            <h2 id="sagrada-familia">La Sagrada Família</h2>
+            
+            <!--imagens aleatórias. Objetivo: Deixar elas lado a lado-->
+
+            <img src="img/img-boat.jpg" width="330" height="219" alt="Imagem de um barco de guerra a vela.">
+            <img src="img/img-piramides-egito.jpg" alt="Imagem das piaramides do egito em destaque.">
+            <img src="img/paisagem.jpg" alt="imagem do horizonte com uma montanha ao fundo.">
+
+        
+            <p>The complicatedly named and curiously unfinished masterpiece that is the Expiatory Temple of the Sacred Family is the most visited building in Barcelona. In it, Gaudi combines his vision of nature and architeture with his devotion to his faith. His focus on this project was so intense that he shunned all other projects, slept in an apartament at the work site surrounded by plans and drawings, and so completely ignored his dissheveled appearance that when, in 1926, he was struck by a streetcar in front of the church, he was mistaken for an indigent and brought to a hospital for the poor where he died soon thereafter.</p>
+
+            <p><span lang="pt-br">The Sagrada Familia</span> attracts even the non-religious to its doors in large part due to this tragic story and its still uninished state, of which the everpresent scaffolding and cranes are permanent reminders. But there is something more. In the Sagrada Família, Gaudi again brings nature and architecture toghether-the soaring spires look something like rising stalagmites in an underground cave-this time in reverance.</p>
+        </section>
+        
+        <section>
+            
+            <h2 id="park-guell">Park Guell</h2>
+            
+            <p>The Park Guell always reminds me of Howard Roark in Ayn Rand's <a href="#"><cite>The Fountainhead</cite></a> Gaudi's project in the Park Guell was to build a residential community whose residents would love where they lived. It was never finished.</p>
+
+            <p>Perhaps that is for the best, since now we all get to enjoy it. The Park Guell is set on a hill overlooking practically <em>all</em> o Barcelona. Its beautiful and even Comfortable serpentine bench is filled with foreigners and locais alike every day of the week. Its mosaic lizard have become synonymous with the city it self.</p>
+        </section>
     </article>
     
 </body>

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #eef;
+    --cor1: rgba(153, 0, 153, 0.774);
+    --cor2: navy;
+    --cor3: #74269d;
+    --cor4: #c3f;
+    --cor5: #ebc6f9;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+header{
+    background-color: var(--cor1);
+}
