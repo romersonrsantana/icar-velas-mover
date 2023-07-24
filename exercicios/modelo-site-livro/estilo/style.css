@@ -7,12 +7,53 @@
     --cor3: #74269d;
     --cor4: #c3f;
     --cor5: #ebc6f9;
+    --cor6: #909;
 }
 
 body{
     background-color: var(--cor0);
+    color: var(--cor6);
+    font: 100% "Palatino Linotype", Palatino, sans-serif;
 }
 
-header{
-    background-color: var(--cor1);
+h1, h2{
+    color: var(--cor2);
+}
+
+h2{
+    font-size: .9375em;
+}
+
+p{
+    font-size: .875em;
+    line-height: 1.6em;
+}
+
+em{
+    font-weight: bold;
+}
+
+/* links */
+
+a:link{
+    color: var(--cor3);
+}
+
+a:visited{
+    color: var(--cor6);
+}
+
+a:hover{
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+/* Navegação */
+
+nav#toc{
+    background: var(--cor5);
+}
+
+nav#toc a{
+    font-size: .75em;
 }
