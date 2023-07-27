@@ -23,8 +23,13 @@ h1, h2{
 
 }
 
+h1{
+    text-transform: uppercase;
+}
+
 h2{
     font-size: .9375em;
+    font-variant: small-caps;
 }
 
 p{
