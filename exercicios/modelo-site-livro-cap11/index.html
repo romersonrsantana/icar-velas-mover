@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Estilos</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="page">
+            <!-- START MASTHEAD  **cabeçalho-->
+
+            <header id="masthead" role="banner">
+                <p>
+                    <a href="/">photobarcelona&hellip; <span>capturing barcelona's cultural treasures on film</span></a>
+                </p>
+
+                <div>
+                    <nav role="navigation">
+                        <p>lista de links</p>
+                    </nav>
+
+                    <form method="get" role="search">
+                        <p>modelo</p>
+                    </form>
+                </div>
+            </header>
+            <!--end #masthead-->
+
+            <!--Start main content **principal-->
+            <div id="main" role="main">
+                
+                <h1>Recent Entries</h1>
+                
+                <!--Start Entry #1-->
+                <section class="entry">
+                    <header>
+                        <h2 lang="es">Hospital Sant Pau</h2>
+                        <p class="date">
+                            <time datetime="2011-06-26">june, 2011</time>
+                        </p>
+                    </header>
+
+                    <p>imagem</p>
+
+                    <div class="intro">
+                        <p>The Saint Paul Hospital at the top</p>
+                        <p class="continued"><a href="#">continued</a></p>
+                    </div>
+                </section>
+                <!--end .entry #1-->
+
+                <!-- start entry #2-->
+                <section class="entry">
+                    <p>modelo</p>
+                </section>
+
+                <!--end .entry #2-->
+
+                <!-- start entry #3-->
+                <section class="entry">
+                    <p>modelo</p>
+                </section>
+                <!--end .entry #3-->
+
+            </div>
+            <!--end #main content-->
+        
+
+            <!--Start sidebar **barra-lateral-->
+            <div id="related" class="sidebar" role="complementary">
+                
+                 <aside class="excerpt">
+                        <h2>From my window</h2>
+                </aside>
+
+                 <aside class="archive">
+                        <nav role="navigation">
+                            <h2>Arquive</h2>
+                            <p>list of links</p>
+                        </nav>
+                    </aside>
+
+            </div>
+            <!--end #sidebar-->
+
+            <!--start footer-->
+            <footer id="footer" role="contentinfo">
+                <h1>abount this photoblog</h1>
+
+                <p>list of images</p>
+            </footer>
+            <!--end #footer-->
+        </div>
+        <!--end #page-->
+        
+    </div>
+    <!--#container-->
+</body>
+</html>
