@@ -24,12 +24,12 @@ h1, h2{
 }
 
 h1{
-    text-transform: uppercase;
+    text-transform: uppercase; /*deixa todas as letras em maiusculas*/
 }
 
 h2{
     font-size: .9375em;
-    font-variant: small-caps;
+    font-variant: small-caps; /*deixa todas as letras em caixa baixa*/
 }
 
 p{
