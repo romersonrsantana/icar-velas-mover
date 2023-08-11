@@ -11,35 +11,41 @@
 
         <div id="page">
 
-            <header>
+            <header id="masthead" role="banner">
             
                 <h1>Photobarcelona</h1>
-                <ul>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>resources</li>
-                    <li>archives</li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li>home</li>
+                        <li>about</li>
+                        <li>resources</li>
+                        <li>archives</li>
+                    </ul>
+                </nav>
             </header>
 
-            <main>
-                <h2>recent entries</h2>
+            <!--inicio main-->
+            <main role="main">
+                <h1>recent entries</h1>
             
-                <section>
-                    <h3>Hospital Sant Pau</h3>
+                <section class="entry">
+                    <h2 lang="es">Hospital Sant Pau</h2>
+
+                    <p>Data</p>
+                    
+                </section>
+
+                <section class="intro">
+                    <h2>Cathedral Cloister</h2>
                     <p>
                         The Saint Hospital at the top of Gaudí Avenue in the Sagrada Família neighborhood is an  oft-overlooked gem of modernist architecture. Although the building was begun in 1902 under the  direction of the architect Lluís Domènec i Montaner, the hospital itself dates from the 14th century.    It serves some 34,000 inpatients yearly, along with more than 150,000 emergency room...
                     </p>
-                </section>
-
-                <section>
-                    <h3>Cathedral Cloister</h3>
                     <p>
                         Outside it feels like a battle is raging, with firecrackers going off left and right in honor of     Sant Joan, but in the cloister of Barcelona's 12th century Cathedral, it`s quiet enough to hear the     trickle of the water from the fountain. As everywhere else in Barcelona, Saint George is slaying his    dragon here. Somehow...
                     </p>
                 </section>
 
-                <section>
+                <section class="intry">
                     <h3>Market Day</h3>
                     <p>
                         Quiet returns. And the refrigerator was empty, so off I set on my way to the market. The plan was   homemade sushi with friends so I made the trip down to the central Barcelona market: the  Bosquería.
@@ -52,40 +58,54 @@
                 </section>
             </main>
 
-            <aside>
-            <h4>from my window</h4>
+            <!--Fim main-->
 
-            <p>
-                Around the corner from our apartment there is a mosaics studio. Last year and the year before, I walked by and looked in wisfully, thinking how cool it would be to made some of the inacredible mosaics they have displayed.
-            </p>
-            <p>
-                This year, I signed up. It's a 22 hour workshop, spread into 2 hour chunks. I've been going Monday and Wednesday mornings, and it's been great. I've learned how to cut ceramic tiles and also "gres" (their word for sandstone, and refers to a matte tile) and how to fit them together. I've got a bunch of ideas for more projects.
-            </p>
-            <p>
-                So, the other day we make our annual pilgrimage to the <spain>Sagrada Familia</spain>,and my favorite part is always watching what they're working on, and there in the middle of the work area is a small pile of green and gold mosaic triangles, just like the ones I've been cutting...
-            </p>
+            <!--Começo do rodapé SIDEBAR-->
 
-            <h4>
-                archive
-            </h4>
-            <ul>
-                <li>May 2011</li>
-                <li>Apr 2011</li>
-                <li>Mar 2011</li>
-                <li>Feb 2011</li>
-                <li>Jan 2011</li>
-            </ul>
-             </aside>
+            <div id="related" class="sidebar" role="complementary">
+                <aside class="excerpt">
+                    <h4>from my window</h4>
+                    <p>
+                        Around the corner from our apartment there is a mosaics studio. Last year and the year before, I    walked by and looked in wisfully, thinking how cool it would be to made some of the inacredible    mosaics they have displayed.
+                    </p>
+                    <p>
+                        This year, I signed up. It's a 22 hour workshop, spread into 2 hour chunks. I've been going Monday  and Wednesday mornings, and it's been great. I've learned how to cut ceramic tiles and also "gres"   (their word for sandstone, and refers to a matte tile) and how to fit them together. I've got a bunch     of ideas for more projects.
+                    </p>
+                    <p>
+                        So, the other day we make our annual pilgrimage to the <spain>Sagrada Familia</spain>,and my favorite   part is always watching what they're working on, and there in the middle of the work area is a small  pile of green and gold mosaic triangles, just like the ones I've been cutting...
+                    </p>
+                </aside>
 
-         <aside>
-            <h4>about this photoblog</h4>
+                <!--fim #excerpet-->
 
-            <p>
-                This photoblog is the product of a love o computers, photography, and Barcelona. If you're interested in any of my photos, please contact me. The photographs on these pages are licensed under the Creative Commons Attribution-NonCommercial-NoDrivs License. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/">http://creativecommons.org/licenses/by-nc-nd/2.5/</a>; or,(b) send a letter to Creative Commons, 543 Howard street, 5th Floor, San Francisco, California, 94105,USA.
-            </p>
-             </aside>
+                <!--Inicio #arquive-->
+
+                <side class="arquive">
+                    <h2>archive</h2>
+                    <ul>
+                        <li>May 2011</li>
+                        <li>Apr 2011</li>
+                        <li>Mar 2011</li>
+                        <li>Feb 2011</li>
+                        <li>Jan 2011</li>
+                    </ul>
+                </side>
+                
+                <!--fim arquive-->
+            </div>
+            <!--fim #sidebar-->
+
+            <!--inicio footer-->
+            <footer id="footer" role="contentinfo">
+                <h1>about this photoblog</h1>
+
+                <p>
+                    This photoblog is the product of a love o computers, photography, and Barcelona. If you're interested   in any of my photos, please contact me. The photographs on these pages are licensed under the     Creative Commons Attribution-NonCommercial-NoDrivs License. To view a copy of this license, visit <a    href="http://creativecommons.org/licenses/by-nc-nd/2.5/">http://creativecommons.org/licenses/by-nc-nd/ 2.5/</a>; or,(b) send a letter to Creative Commons, 543 Howard street, 5th Floor, San Francisco,     California, 94105,USA.
+                </p>
+            </footer>
+            <!--fim footer-->
     
-         </div> <!-- -->
+        </div> <!--#PAGE -->
 
     </div> <!--#container-->
 </body>
