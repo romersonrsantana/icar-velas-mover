@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: .75em;
+    text-transform: lowercase; /*deixa todas as letras em minusculas*/
+}
+
+/*------------------------- Cabeçalho ----------------------*/
+
+#masthead{
+    margin-bottom: 30px;
+}
+
+/*-------------------------- Fim do cabeçalho -------------------*/
+
+#container{
+    background: url(./imagens/paisagem-background.jpg) repeat-x;
+    margin: 20px auto;
+    background-attachment: fixed;
+    max-width: 950px;
+    width: 90%;
+}
+
+#page{
+    background-color: rgba(65, 225, 105, 0.685);
+    width: 97.9167%;
+}
+
+/*----------------------------------- conteúdo principal --------------------------- */
+
+main{
+    width: 71%;
+}
+
+.entry{
+    margin: 0 .5em 2em 0;
+}
+
+
+/*----------------------------------- fim do conteúdo principal -------------------- */
+
+
+
+/*------------------------------------ barra lateral - sidebar----------------------- */
+
+.sidebar{
+    background-color: rgba(188, 143, 143, 0.767);
+}
+
+aside h2{
+    font-size: .9375em;
+    margin-bottom: 3px;
+    text-transform: lowercase;
+}
+
+#related{
+    margin-left: 72%; /*significa que ele está mais longe da esquerda que o conteúdo principal main*/
+}
+
+.continued{
+    font-style: italic;
+    margin-top: -5px; /*entender o uso de px e não em*/
+}
+
+/*-------------------------------------- Fim da Barra lateral --------------------------- */
+
+/*--------------------------------------- Footer ---------------------------------------- */
+
+#footer{
+    margin-top: 10px;
+}
+
+/*---------------------------------------- links ----------------------------------------- */
+
+nav a{
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active {background: #f3cfb6;}
+
+/*---------------------------------------- Fim dos links ----------------------------------- */
+
+/*---------------------------------------- Imagens ----------------------------------------- */
+
+.photo{ /*controla o tamanho dos paragrafos ao redor das imagens. Mesma altura e largura das imagens*/
+    height: 75px;
+    width: 100px;
+}
+
+/*----------------------------------------- fim imagens ------------------------------------- */
