@@ -24,8 +24,34 @@ p{
 /*------------------------- Cabeçalho ----------------------*/
 
 #masthead{
+    border-bottom: 2px dotted #1d3d76; /* ----Defini uma tinha tracejada para distinguir o ccabeçalho do conteúdo --- */
     margin-bottom: 30px;
+    padding-bottom: 20px;
+    
 }
+
+.logo{
+    float: left;
+    font-size: 1.5em;
+}
+
+#masthead div {     /*---- faz com que todo o bloco de lista desliza para a direita ----*/
+    float: right;
+}
+
+.nav li{            /*---- faz com que cada li fique uma ao lado da outra ----*/
+    float: left;        
+    font-size: 1em;
+    padding: 0 25px 0 3px;
+}
+
+/* Código pronto para ser aplicado a um container do elemento ou elementos flutuados*/
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* ------------------ Fim do cógido ----------------*/
 
 /*-------------------------- Fim do cabeçalho -------------------*/
 
@@ -35,7 +61,7 @@ p{
     background-attachment: fixed;
     max-width: 950px;
     width: 90%;
-    padding: 30px 10px 0 0; /*aumento da imagem no canto superior*/
+    padding: 30px 10px 0 0; /*aumento da imagem de fundo no canto superior*/
 }
 
 #page{
@@ -54,11 +80,13 @@ main{
 }
 
 .entry{
-    margin: 0 .5em 2em 0;
+    border-right: 2px dashed #b74e07;   /*para configurar a aproximação da linha considerar a propriedade margim*/
+    margin: 0 .9em 2em 0;
+
 }
 
 .intro{
-    margin: -5px 0 0 110px;
+    margin: -5px 0 0 110px; /* Ao dar ao container em volta do texto uma margem de 110px, seu conteudo não ficará ao redor da imagem */
 }
 
 
@@ -105,6 +133,7 @@ aside.archive ul{
 /*--------------------------------------- Footer ---------------------------------------- */
 
 #footer{
+    clear: both; /* Evita que o conteudo do rodapé siga o elemento flutuado --- both signiica "ambos os lados"*/
     margin-top: 10px;
 }
 
