@@ -24,7 +24,7 @@ p{
 /*------------------------- Cabeçalho ----------------------*/
 
 #masthead{
-    border-bottom: 2px dotted #1d3d76; /* ----Defini uma tinha tracejada para distinguir o ccabeçalho do conteúdo --- */
+    border-bottom: 2px dotted #1d3d76; /* ----Defini uma linha tracejada para distinguir o cabeçalho do conteúdo --- */
     margin-bottom: 30px;
     padding-bottom: 20px;
     
@@ -157,3 +157,15 @@ a:focus, a:hover, a:active {background: #f3cfb6;}
 }
 
 /*----------------------------------------- fim imagens ------------------------------------- */
+
+
+/*----------------------------------------- datas ------------------------------------------- */
+.date{
+    position: relative; /*mudando o elemnto de acordo com sua posição atual*/
+    top: -2em;
+    text-align: right;
+    margin-right: 3px;
+}
+
+
+/* ---------------------------------------- fim das datas ------------------------------------ */
