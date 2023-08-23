@@ -45,7 +45,7 @@ p{
     padding: 0 25px 0 3px;
 }
 
-/* Código pronto para ser aplicado a um container do elemento ou elementos flutuados*/
+/* Código pronto para ser aplicado a um container do elemento ou elementos flutuados. MOTIVO: evitar que elementos indesejados flutuem ao redor da do elemento.*/
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
