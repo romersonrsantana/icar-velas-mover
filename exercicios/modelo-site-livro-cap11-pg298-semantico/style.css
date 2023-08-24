@@ -33,10 +33,40 @@ p{
 .logo{
     float: left;
     font-size: 1.5em;
+    margin: 0;
+}
+
+.logo a {
+    padding: 0;
+}
+
+.logo span{
+    display: block; /*faz com que o elemento tenha sua própria linha */
+    font-size: 0.6em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 3px 0 0 1em;
+
 }
 
 #masthead div {     /*---- faz com que todo o bloco de lista desliza para a direita ----*/
     float: right;
+    position: relative; /* para que o campo de busca seja posicionado absolutamente em relação ao div e não ao body */
+}
+
+/* ---------------------------------- campo de busca ---------------------------------- */
+
+#masthead form{
+    position: absolute; /* tirando o elemento do fluxo normal e posicionando ele absolutamente */
+    top: 7px;
+    right: 0;
+}
+
+
+/* ---------------------------------- fim de caixa de busca --------------------------- */
+
+.nav{
+    margin-top: 45px; /*empurrar o menu de navegação para baixo. Motivo: Resolver o problema de um elemento encima do outro*/
 }
 
 .nav li{            /*---- faz com que cada li fique uma ao lado da outra ----*/
