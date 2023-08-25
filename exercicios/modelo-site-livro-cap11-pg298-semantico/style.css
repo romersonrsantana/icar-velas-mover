@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+nav{
+    display: block;
+}
+
 h1{
     font-size: 1.5em;
     margin-bottom: .75em;
@@ -158,7 +162,7 @@ aside.archive ul{
 
 
 
-/*-------------------------------------- Fim da Barra lateral --------------------------- */
+/*--------------------- Fim da Barra lateral --------------------------- */
 
 /*--------------------------------------- Footer ---------------------------------------- */
 
@@ -167,6 +171,16 @@ aside.archive ul{
     margin-top: 10px;
 }
 
+
+.thumbnails li{
+    display: inline-block;
+}
+
+.thumbnails img{
+    vertical-align: super;
+}
+
+
 /*---------------------------------------- links ----------------------------------------- */
 
 nav a{
@@ -174,6 +188,16 @@ nav a{
 }
 
 a:focus, a:hover, a:active {background: #f3cfb6;}
+
+/* ------- link da home ------ */
+.current{
+    color: #1d3d76;
+}
+a:hover.current{
+    background: white;
+    cursor: default;
+}
+/* ------- pagina final da home ------ */
 
 /*---------------------------------------- Fim dos links ----------------------------------- */
 
