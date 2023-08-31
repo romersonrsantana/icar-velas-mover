@@ -17,3 +17,13 @@ p{
         font-weight: bold;
     }
 }
+
+
+@media only screen and (min-width: 750px){
+
+    p{
+        color: royalblue;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}
