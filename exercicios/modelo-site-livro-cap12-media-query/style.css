@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: block;
+}
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: .75em;
+    text-transform: lowercase; /*deixa todas as letras em minusculas*/
+    margin: 3px;
+}
+
+h2{
+    margin: 6px;
+}
+
+p{
+    line-height: 2em;
+}
+
+
+/*------------------------- Cabeçalho ----------------------*/
+
+#masthead{
+    border-bottom: 2px dotted #1d3d76; /* ----Defini uma linha tracejada para distinguir o cabeçalho do conteúdo --- */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    
+}
+
+/*-------------------------- Fim do cabeçalho -------------------*/
+
+#container{
+    background: url(./imagens/paisagem-background.jpg) repeat-x;
+    margin: 20px auto;
+    background-attachment: fixed;
+    max-width: 950px;
+    width: 90%;
+    padding: 30px 10px 0 0; /*aumento da imagem de fundo no canto superior*/
+}
+
+#page{
+    background-color: rgba(65, 225, 105, 0.685);
+    width: 97.9167%;
+    padding: 10px 10px 10px 0;
+}
+
+/*----------------------------------- conteúdo principal --------------------------- */
+
+main{
+    width: 71%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.entry{
+    border-right: 2px dashed #b74e07;   /*para configurar a aproximação da linha considerar a propriedade margim*/
+    margin: 0 .9em 2em 0;
+
+}
+
+
+.intro{
+    margin: -5px 0 0 110px;  /*Ao dar ao container em volta do texto uma margem de 110px, seu conteudo não ficará ao redor da imagem */
+}
+
+
+/*----------------------------------- fim do conteúdo principal -------------------- */
+
+
+
+/*------------------------------------ barra lateral - sidebar----------------------- */
+
+.sidebar{
+    background-color: rgba(188, 143, 143, 0.767);
+    padding: 23px;
+}
+
+aside h2{
+    font-size: .9375em;
+    margin-bottom: 3px;
+    text-transform: lowercase;
+}
+
+#related{
+    margin-left: 72%; /* significa que ele está mais longe da esquerda que o conteúdo principal main*/
+}
+
+aside.excerpt{
+    margin-bottom: 18px;
+}
+
+aside.archive ul{
+    list-style: disc;
+}
+
+.continued{
+    font-style: italic;
+    margin-top: 15px; /*entender o uso de px e não em*/
+    
+    
+}
+
+
+
+/*--------------------- Fim da Barra lateral --------------------------- */
+
+/*--------------------------------------- Footer ---------------------------------------- */
+
+#footer{
+    clear: both; /* Evita que o conteudo do rodapé siga o elemento flutuado --- both signiica "ambos os lados"*/
+    margin-top: 10px;
+}
+
+
+/*---------------------------------------- links ----------------------------------------- */
+
+nav a{
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active {background: #f3cfb6;}
+
+/* ------- link da home ------ */
+.current{
+    color: #1d3d76;
+}
+a:hover.current{
+    background: white;
+    cursor: default;
+}
+/* ------- pagina final da home ------ */
+
+/*---------------------------------------- Fim dos links ----------------------------------- */
