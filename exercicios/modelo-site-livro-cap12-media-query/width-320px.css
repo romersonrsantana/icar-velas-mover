@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    text-align: justify;
 
 }
 
 .photo{
-    float: left;
+    float: none;
     display: inline-block;
     margin: 0px 0px 0px 0px;
+}
+
+.entry{
+    border-right: none;
+    margin: 0px;
+}
+.intro{
+    margin: 0px;
+}
+
+#related{
+    margin-left: 3%;
 }
