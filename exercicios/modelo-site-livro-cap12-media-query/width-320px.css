@@ -7,6 +7,22 @@
 
 }
 
+main{
+    padding-left: 9px;
+    width: 97%;
+    float: none;
+    margin: 0px;
+}
+
+p{
+    text-indent: 9%;
+}
+
+p.date{
+    text-indent: 0;
+
+}
+
 .photo{
     float: none;
     display: inline-block;
@@ -19,8 +35,14 @@
 }
 .intro{
     margin: 0px;
+    padding: 0px;
 }
 
 #related{
     margin-left: 3%;
+    clear: both;
+}
+
+#footer{
+    padding: 9px;
 }

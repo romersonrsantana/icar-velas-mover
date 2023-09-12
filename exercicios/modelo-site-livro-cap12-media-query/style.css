@@ -30,6 +30,8 @@ p{
 #masthead{
     border-bottom: 2px dotted #1d3d76; /* ----Defini uma linha tracejada para distinguir o cabeçalho do conteúdo --- */
     margin-bottom: 30px;
+    list-style-position: inside;
+    padding-left: 9px;
     padding-bottom: 20px;
     
 }
