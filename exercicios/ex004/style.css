@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'LeagueGothic-CondensedItalic';
+    /*src: url(./fonte/LeagueGothic-CondensedRegular.otf);*/
+    src: url(./fonte/LeagueGothic-CondensedItalic.otf);
+}
+
+@font-face{
+    font-family:'League-normal';
+    src:url(./fonte/LeagueGothic-Regular.otf)
+
+}
+
+@font-face{
+    font-family: 'crimson-roman';
+    src: url(./fonte/Crimson-Roman.otf);
+
+}
+
+
+h1{
+    font-family: League-normal;
+    
+}
+
+p{
+    font-family: LeagueGothic-CondensedItalic;
+    font-size: 3.9em;
+    /*font-style: italic;*/
+}
+p.teste{
+    font-family: crimson-roman;
+}
