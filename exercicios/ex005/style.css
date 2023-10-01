@@ -16,6 +16,7 @@ div{
 
 div:hover{
     box-shadow: 2px 2px 9px rgba(153, 152, 152, 0.644), 6px 6px 21px royalblue; /*teste box-shadow*/
+    /*opacity: 0.39; teste com transparencia*/
 }
 
 .all-corners{

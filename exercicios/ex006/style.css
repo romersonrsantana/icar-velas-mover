@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eee;
+   
+    background-image: url(./img/back-piramides.jpg), url(./img/back-piamides-2.jpg), url(./img/cores.jpg);
+    background-repeat: no-repeat, repeat-x, repeat-x;
+    background-position: center center, center center, top center;
+    /*background-position: 30% 63% , -20% 56, 72% -18%;*/
+    height: 300px;
+    padding-top: 36px;
+}
+
+main{
+    margin: auto;
+    min-width: 480px;
+    max-width: 960px;
+    background-color: rgba(255, 255, 255, 0.616);  
+}
+
