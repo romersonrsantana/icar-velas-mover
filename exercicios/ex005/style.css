@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
+body{
+    background: #eee;
+    color: #000;
+
+}
+
 div{
     background-color: royalblue;
     height: 150px;
     float: left;
-    margin: 12px;
+    margin: 39px;
     width: 150px;
+}
+
+div:hover{
+    box-shadow: 2px 2px 9px rgba(153, 152, 152, 0.644), 6px 6px 21px royalblue; /*teste box-shadow*/
 }
 
 .all-corners{
